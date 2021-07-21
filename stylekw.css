@@ -1,0 +1,54 @@
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  margin: 10px;
+  height: 300px;
+}
+
+p {
+  line-height: 1.5;
+  text-align: left;
+}
+
+h2{
+  background-color: BlueViolet;
+  width: 100%;
+}
+
+.accessories {
+  width: 100%;
+  display: inline-grid;
+}
+
+.navbar {
+  background-color: BlueViolet;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item{
+    padding: 20px;
+    display: inline-block;
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+}
+
+#intro{
+  text-align : left;  /* added */
+  background: white; /* added */
+  border:solid 2px BlueViolet; /* added */
+  padding: 5px; /* added */
+  margin: 20px 5px 20px 5px;
+  border-radius: 10px;
+}
+
+#body {
+  background-color: Lavender;
+}
