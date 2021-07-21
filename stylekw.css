@@ -5,6 +5,8 @@ font-family: 'Open Sans', sans-serif;
 img {
   margin: 10px;
   height: 300px;
+  border: solid 2px BlueViolet;
+  border-radius: 10px;
 }
 
 p {
@@ -38,19 +40,6 @@ h2{
 .nav-links{
   display: flex;
   list-style: none;
-}
-
-#intro{
-  text-align : left;  /* added */
-  background: white; /* added */
-  border:solid 2px BlueViolet; /* added */
-  padding: 5px; /* added */
-  margin: 20px 5px 20px 5px;
-  border-radius: 10px;
-}
-
-#body {
-  background-color: Lavender;
 }
 
 
@@ -177,4 +166,30 @@ h2{
     width: 360px;
   }
 
+}
+
+#intro{
+  text-align : left;  /* added */
+  background: white; /* added */
+  border:solid 2px BlueViolet; /* added */
+  padding: 5px; /* added */
+  margin: 20px 5px 20px 5px;
+  border-radius: 10px;
+}
+
+#body {
+  background-color: Lavender;
+}
+
+#darkMode {
+  border-radius: 100%;
+  border: none;
+  padding: 10px;
+  background-color: DarkSlateBlue;
+}
+
+#earrings, #bracelets, #art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
